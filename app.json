@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#e12e1a",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleText": "云天汇财富伙伴查询",
+    "backgroundTextStyle":"light"
+  }
+}

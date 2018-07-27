@@ -1,0 +1,115 @@
+/* pages/result/detail.wxss */
+.result{
+  width:740rpx;
+  height:80rpx;
+  line-height: 80rpx;
+  font-size:32rpx;
+  color:#666;
+  background-color: #e8e8e8;
+  text-align: center;
+  margin:0 auto 85rpx;
+}
+.callme{
+  width:100%;
+  height:50rpx;
+  line-height: 50rpx;
+  font-size:50rpx;
+  color:#fd4337;
+  text-align: center;
+}
+.tel_img{
+  display: inline-block;
+  width:33rpx;
+  height:32rpx;
+  margin-right:24rpx;
+}
+.tel_num{
+  letter-spacing: 2rpx;
+}
+.img_container{
+  text-align: center;
+  padding:42rpx 0 30rpx;
+}
+.people_img{
+  display: inline-block;
+  width:370rpx;
+  height:490rpx;
+  border:10rpx solid #e8e8e8;
+  margin:0 auto;
+}
+.managerName{
+  line-height: 44rpx;
+  font-size:44rpx;
+  color:#333;
+  font-weight: bolder;
+  /* letter-spacing: 16rpx; */
+  text-align: center;
+  margin-bottom:20rpx;
+}
+.position_detail{
+  display: flex;
+  width:100%;
+  /* align-content: center;
+  padding:0 38rpx; */
+  height: 50rpx;
+  /* border-radius: 12rpx; */
+  line-height:50rpx;
+  font-size:28rpx;
+  color:#777;
+  margin-bottom:80rpx;
+}
+.department_view{
+  flex:1;
+  text-align: right;
+  
+}
+.position_view{
+  flex:1;
+  text-align: left;
+  
+}
+.department{
+  position:relative;
+  display: inline-block;
+  padding-right:20rpx;
+  padding-left:40rpx;
+  text-align:right;
+  background-color: #e8e8e8;
+  line-height:50rpx;
+  border-radius: 12rpx 0 0 12rpx;
+}
+.department::after{
+  position:absolute;
+  top:-14rpx;
+  right:0;
+  content:'.';
+}
+.position{
+  display: inline-block;
+  padding-left:20rpx;
+  padding-right:40rpx;
+  line-height:50rpx;
+  text-align:left;
+  background-color: #e8e8e8;
+  border-radius: 0 12rpx 12rpx 0;
+}
+.bottom{
+  position:relative;
+  width:100%;
+  height:154rpx;
+}
+.logo{
+  position:absolute;
+  left:46rpx;
+  bottom:0;
+  width:260rpx;
+  height:50rpx;
+}
+.qr_img{
+  position:absolute;
+  right:46rpx;
+  top:0;
+  width:150rpx;
+  height:152rpx;
+
+}

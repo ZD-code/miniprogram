@@ -1,0 +1,29 @@
+<view class='container'>
+  <view class='result'>
+    <text class='result_tips'>您所查询的电话号码正式我们的伙伴</text>
+  </view>
+  <view class='callme' bindtap='callPhone'>
+    <image class='tel_img' src='../images/tel.png'></image>
+    <text class='tel_num'>{{telNum}}</text>
+  </view>
+
+  <view class='img_container'>
+    <image src="{{peopleImgUrl}}" mode="aspectFit" class='people_img'></image>
+  </view>
+  <view class='managerName'>
+    <text class=''>{{managerName}}</text>
+  </view>
+  <view class='position_detail'>
+    <view class='department_view'>
+      <text class='department'>{{department}}</text>
+    </view>
+    <view class='position_view'>
+      <text class='position'>{{position}}</text>
+    </view>
+  </view>
+  <view class='bottom'>
+    <image class='logo' src='{{logo}}'></image>
+    <image class='qr_img' src='{{qrUrl}}' bindlongpress='previewQRImg'></image>
+  </view>
+
+</view>
